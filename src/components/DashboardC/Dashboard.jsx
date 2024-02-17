@@ -17,7 +17,7 @@ import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import { mainListItems } from "./listItems";
 import Chart from "./Chart";
 import MyMap from "../Maps/MyMap";
-import CustomPaginationActionsTable, { CustomTable } from "./Orders";
+import CustomPaginationActionsTable, { CustomTable } from "./Tables";
 import { useSelector } from "react-redux";
 import { Cards } from "./Cards";
 import { Avatar, Tooltip } from "@mui/material";

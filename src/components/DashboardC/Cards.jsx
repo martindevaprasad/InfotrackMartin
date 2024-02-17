@@ -1,4 +1,4 @@
-import { Box, Grid, Paper } from "@mui/material";
+import { Box, Grid, Icon, Paper } from "@mui/material";
 import React from "react";
 import Card from "@mui/material/Card";
 import Typography from "@mui/material/Typography";
@@ -48,7 +48,7 @@ export const Cards = () => {
     <Box>
       <Grid
         container
-        spacing={{ xs: 2, md: 12 }}
+        spacing={{ xs: 2, md: 20 }}
         columns={{ xs: 4, sm: 8, md: 12 }}
       >
         {CardData.map((item, index) => (
@@ -68,9 +68,7 @@ export const Cards = () => {
                       alignItems: "center"
                     }}
                   >
-                    <CompareArrowsIcon
-                      sx={{ color: "#fff", fontSize: "42px" }}
-                    />
+                    <item.icon sx={{ fontSize: "34px", color: "#fff" }} />
                   </Card>
                   <Typography
                     mt={1}
